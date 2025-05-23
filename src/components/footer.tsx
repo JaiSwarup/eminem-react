@@ -6,7 +6,6 @@ import {
   Youtube,
   AppleIcon,
   Headphones,
-  Icon,
 } from "lucide-react";
 import { Icons } from "./icons";
 
