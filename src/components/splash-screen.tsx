@@ -60,6 +60,10 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
           rotate: { duration: 4, ease: "easeInOut" },
           scaleX: { duration: 4, ease: "easeInOut" },
           scaleY: { duration: 4, ease: "easeInOut" },
+          type: "spring",
+          // stiffness: 100,
+          // damping: 20,
+          // mass: 1,
         }}
       />
 
